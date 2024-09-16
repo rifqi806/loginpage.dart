@@ -32,7 +32,7 @@ class _LoginPageState extends State<LoginPage> {
   final TextEditingController _passwordController = TextEditingController();
 
   final String nimAsisten = '123210181';
-  final String passwordAsisten = '123#';
+  final String passwordAsisten = '123210181';
 
   void _login(BuildContext context) {
     String username = _usernameController.text;
